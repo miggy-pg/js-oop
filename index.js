@@ -41,16 +41,16 @@
 
 // Note: 'this' refers to the object similar to Python
 
+// Circle.call({}, 1);
+// Circle.apply({}, [1,2,3]);   // 'apply' is useful for array
+// const another = new Circle(1);
+
 // Note: when using constructor function, 'return' statement is not needed since 'new' automatically handles it
 //     : function are objects that have constructors to call the function
 //     : when using 'new' operator, it will create an empty object (a dictionary in Python) with a call method
 //       and will determine or reference to the 'this'
 
 //     : without 'new', it will point to the global object which is Window
-
-// Circle.call({}, 1);
-// Circle.apply({}, [1,2,3]);   // 'apply' is useful for array
-// const another = new Circle(1);
 
 
 
@@ -292,7 +292,7 @@ function Circle(radius) {
 
 }
 const circle = new Circle(10);
-circle.defaultLocation =1;
+circle.defaultLocation = {x:2, y:1};
 
 // Console input:
 //      circle

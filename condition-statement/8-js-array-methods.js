@@ -55,7 +55,7 @@
 //     // });
 
 // // --------------------------------------------------------------------------------------------------------
-//     // Using the sum()                                          // which is different to the other function because it will return True/False
+//     // Using the some()                                          // which is different to the other function because it will return True/False
 //     // const hasInexpensive = arr.some((item) => {                 // we are checking if any element has a price that are less than or equal to 100
 //         // return item.price <= 100                                // if there are no price element that is less than or equal to 100, it will return false
 //     // })

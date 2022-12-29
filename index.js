@@ -8,15 +8,22 @@
 // 
 
 // These function are rendered from 'not-using-switch.js'
-import { switchAlternative, switchMapAlternative } from "./condition-statement/not-using-switch.js";
-const extension = ".css"
-switchAlternative(extension)
-switchMapAlternative(extension)
+// import { switchAlternative, switchMapAlternative } from "./condition-statement/not-using-switch.js";
+// const extension = ".css"
+// switchAlternative(extension)
+// switchMapAlternative(extension)
 
+// These function are rendered from 'if-else-statement.js'
+import { conditionStatement, conditionTriStatement } from "./condition-statement/if-else-statement.js";
+conditionStatement(8, 6)
+conditionTriStatement(2, 6, 8)
+
+
+// --------------------------------------------------------------------------------------------------------------------------------
 // Key Takeaways: 
 //              :: objects = {} are similar to dictionary in Python with key, value properties
 
-// OBJECTIVE: 
+// OBJECTIVE: Learn Object-oriented Programming in JavaScript
 
 // const circle = {
 //     radius:1,

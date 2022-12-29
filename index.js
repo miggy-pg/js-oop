@@ -1,11 +1,17 @@
 // These function are rendered from 'js-es6.js' file.
-import User, { printName as printUserName, printAge } from "./condition-statement/js-es6.js"        // Using 'as' we will be able define an alias to a function/class
+// import User, { printName as printUserName, printAge } from "./condition-statement/js-es6.js"        // Using 'as' we will be able define an alias to a function/class
 
-const user = new User("Bob", 11)
-console.log(user)
-printUserName(user)
-printAge(user)
+// const user = new User("Bob", 11)
+// console.log(user)
+// printUserName(user)
+// printAge(user)
 // 
+
+// These function are rendered from 'not-using-switch.js'
+import { switchAlternative, switchMapAlternative } from "./condition-statement/not-using-switch.js";
+const extension = ".css"
+switchAlternative(extension)
+switchMapAlternative(extension)
 
 // Key Takeaways: 
 //              :: objects = {} are similar to dictionary in Python with key, value properties

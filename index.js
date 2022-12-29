@@ -14,10 +14,13 @@
 // switchMapAlternative(extension)
 
 // These function are rendered from 'if-else-statement.js'
-import { conditionStatement, conditionTriStatement } from "./condition-statement/if-else-statement.js";
-conditionStatement(8, 6)
-conditionTriStatement(2, 6, 8)
+// import { conditionStatement, conditionTriStatement } from "./condition-statement/if-else-statement.js";
+// conditionStatement(8, 6)
+// conditionTriStatement(2, 6, 8)
 
+// These function are rendered from 'ternary-operator.js'
+import { oddEven } from "./condition-statement/ternary-operator.js";
+oddEven(8)
 
 // --------------------------------------------------------------------------------------------------------------------------------
 // Key Takeaways: 

@@ -19,8 +19,23 @@
 // conditionTriStatement(2, 6, 8)
 
 // These function are rendered from 'ternary-operator.js'
-import { oddEven } from "./condition-statement/ternary-operator.js";
-oddEven(8)
+// import { oddEven } from "./condition-statement/ternary-operator.js";
+// oddEven(8)
+
+// These function are rendered from '8-js-array-methods.js'
+// import { arrayMethod, includeMethod } from "./condition-statement/8-js-array-methods.js";
+// const items = [
+//     { name: "Bike", price: 100},
+//     { name: "TV", price: 200},
+//     { name: "Album", price: 10},
+//     { name: "Book", price: 5},
+//     { name: "Phone", price: 500},
+//     { name: "Computer", price: 1000},
+//     { name: "Keyboard", price: 25},
+// ]
+// arrayMethod(items)
+// const arrItem = [1, 2, 3, 4, 5]
+// includeMethod(arrItem)
 
 // --------------------------------------------------------------------------------------------------------------------------------
 // Key Takeaways: 

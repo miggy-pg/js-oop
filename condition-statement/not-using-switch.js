@@ -1,32 +1,32 @@
 // OBJECTIVE: An alternative on SWITCH statement by using a object with key-value pair.
 
-export function switchAlternative(extension){
+// export function switchAlternative(extension){
     // One alternative option on not using SWITCH statement is using an Object "{}"
-    const extensionObj = {
-        ".css": "text/css",
-        ".js": "text/javascript",
-        ".json": "application/json",
-        ".jpg": "image/jpeg",
-        ".png": "image/png",
-        ".txt": "text/plain",
-    }
-    console.log(extensionObj[extension] || "text/html")         // we are assigning a default value "text/html" if the specified 'extension' is does not exist
+//     const extensionObj = {
+//         ".css": "text/css",
+//         ".js": "text/javascript",
+//         ".json": "application/json",
+//         ".jpg": "image/jpeg",
+//         ".png": "image/png",
+//         ".txt": "text/plain",
+//     }
+//     console.log(extensionObj[extension] || "text/html")         // we are assigning a default value "text/html" if the specified 'extension' is does not exist
 
-}
+// }
 
-export function switchMapAlternative(extension){
-    // Second alternative option on not using SWITCH statement is using Map()
-    const myMap = new Map();
-    myMap.set(".css", "text/css")
-    myMap.set(".js", "text/javascript")
-    myMap.set(".json", "application/json")
-    myMap.set(".jpg", "image/jpeg")
-    myMap.set(".png", "image/png")
-    myMap.set(".txt", "text/plain")
+// export function switchMapAlternative(extension){
+//     // Second alternative option on not using SWITCH statement is using Map()
+//     const myMap = new Map();
+//     myMap.set(".css", "text/css")
+//     myMap.set(".js", "text/javascript")
+//     myMap.set(".json", "application/json")
+//     myMap.set(".jpg", "image/jpeg")
+//     myMap.set(".png", "image/png")
+//     myMap.set(".txt", "text/plain")
 
-    console.log(myMap.get(extension) || "text/html")
-    console.log(myMap.size)
-}
+//     console.log(myMap.get(extension) || "text/html")
+//     console.log(myMap.size)
+// }
 
 // Visit https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
 // Key takeaways:

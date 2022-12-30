@@ -4,24 +4,27 @@
 // const user = new User("Bob", 11)
 // console.log(user)
 // printUserName(user)
-// printAge(user)
-// 
+// printAge(user) 
 
+// --------------------------------------------------------------------------------------------------------------------------------
 // These function are rendered from 'not-using-switch.js'
 // import { switchAlternative, switchMapAlternative } from "./condition-statement/not-using-switch.js";
 // const extension = ".css"
 // switchAlternative(extension)
 // switchMapAlternative(extension)
 
+// --------------------------------------------------------------------------------------------------------------------------------
 // These function are rendered from 'if-else-statement.js'
 // import { conditionStatement, conditionTriStatement } from "./condition-statement/if-else-statement.js";
 // conditionStatement(8, 6)
 // conditionTriStatement(2, 6, 8)
 
+// --------------------------------------------------------------------------------------------------------------------------------
 // These function are rendered from 'ternary-operator.js'
 // import { oddEven } from "./condition-statement/ternary-operator.js";
 // oddEven(8)
 
+// --------------------------------------------------------------------------------------------------------------------------------
 // These function are rendered from '8-js-array-methods.js'
 // import { arrayMethod, includeMethod } from "./condition-statement/8-js-array-methods.js";
 // const items = [
@@ -36,6 +39,14 @@
 // arrayMethod(items)
 // const arrItem = [1, 2, 3, 4, 5]
 // includeMethod(arrItem)
+
+// --------------------------------------------------------------------------------------------------------------------------------
+// These function are rendered from 'json-api.js'
+import {getISS} from "./condition-statement/json-api.js";
+
+const api_url = "https://api.wheretheiss.at/v1/satellites/25544"
+getISS(api_url);
+
 
 // --------------------------------------------------------------------------------------------------------------------------------
 // Key Takeaways: 

@@ -42,10 +42,42 @@
 
 // --------------------------------------------------------------------------------------------------------------------------------
 // These function are rendered from 'json-api.js'
-import {getISS} from "./condition-statement/json-api.js";
+// import {getISS} from "./condition-statement/json-api.js";
 
-const api_url = "https://api.wheretheiss.at/v1/satellites/25544"
-getISS(api_url);
+// const api_url = "https://api.wheretheiss.at/v1/satellites/25544"
+// getISS(api_url);
+
+// --------------------------------------------------------------------------------------------------------------------------------
+// These function are rendered from 'js-class.js'
+// import {Vehicle, Car} from "./condition-statement/js-class.js";
+
+// const car = new Vehicle(4);
+// car.wheels = 7;                                 // we are trying to change the number of wheels by accessing the function property 'wheels'
+
+// console.log(car.wheels);                        // in this line, we are calling the 'get wheels()' method
+// Console output:
+//      numWheels: 7
+
+// console.log(Vehicle.accelerate());              
+// Console output:
+//      go faster
+
+// const brand = new Car(6, "Ferrari", "Testarossa", 1985);
+// console.log(brand);
+// Console output:
+//      brand: "Ferrari"
+//      numWheels: 6
+//      paint: "Testarossa"
+//      year: 1985
+
+// brand.info();
+// Console output:
+//      6 'Ferrari' 'Testarossa' 1985
+
+// Car.accelerate()
+// Console output:
+//      go faster
+
 
 
 // --------------------------------------------------------------------------------------------------------------------------------

@@ -1,7 +1,7 @@
 // OBJECTIVE: An alternative on SWITCH statement by using a object with key-value pair.
 
 // export function switchAlternative(extension){
-    // One alternative option on not using SWITCH statement is using an Object "{}"
+// One alternative option on not using SWITCH statement is using an Object "{}"
 //     const extensionObj = {
 //         ".css": "text/css",
 //         ".js": "text/javascript",
@@ -10,7 +10,7 @@
 //         ".png": "image/png",
 //         ".txt": "text/plain",
 //     }
-//     console.log(extensionObj[extension] || "text/html")         // we are assigning a default value "text/html" if the specified 'extension' is does not exist
+//     console.log(extensionObj[extension] || "text/html")         // we are assigning a default value "text/html" if the specified 'extension' does not exist
 
 // }
 
